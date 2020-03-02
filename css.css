@@ -1,0 +1,97 @@
+/*DISENY BODY, IMG*/
+body {
+background-color:#FFEBCD;
+background-image: url("fondo2.jpg");
+width: 800px;
+font-family: Arial;
+font-size: 15px;
+margin: center;
+margin-left: 25%;}
+
+img {
+float: right;
+position: relative;
+right: 100px;
+border-radius: 10px;
+}
+
+/*ESTIL DEL TEXT*/
+a {
+color:yellow;
+text-decoration: none;
+}
+
+h1:hover {
+transform: rotate(360deg);
+transition-duration: 3s;
+}
+
+a:hover { color:green;
+text-decoration: underline; }
+
+h3 {
+border-top: 2px solid purple;
+background-color: gray;
+box-shadow: 1px 2px;
+text-align: center;
+}
+
+p {color:white;}
+
+h1 {
+text-align: center;
+color: purple;
+margin-right: 80px;
+font-size: 45px;
+text-decoration: underline;
+text-decoration-color: yellow;
+}
+
+/*DEFINICIO DE MARGES*/
+#dades {
+margin-right: 500px;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
+#Objectius  {
+margin-left: 20px;
+margin-right: 300px;
+margin-bottom: 20px;
+}
+
+#Educació  {
+margin-right: 500px;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
+#taula  {
+margin-right: 450px;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
+#experiencia  {
+margin-right: 400px;
+margin-left: 20px;
+margin-bottom: 70px;
+}
+    
+#coneixements  {
+margin-right: 400px;
+margin-left: 20px;
+margin-bottom: 100px;
+}
+
+/*DISENY TAULA*/
+table {
+border: 2px solid green;
+margin-left: 40px;
+}
+
+th,td{
+border: 2px solid green;
+padding: 10px;
+background-color: white;
+}
